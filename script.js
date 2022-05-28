@@ -30,7 +30,7 @@ window.onload = function () {
 
     document.querySelector('audio').addEventListener('play', function () {
         setTimeout(function () {
-            alert("Enjoy the music while you play and \nmake sure to click on GOOD LUCK \nbefore starting for some good luck!!")
+            alert("\tEnjoy the music while you play and \n\tmake sure to click on GOOD LUCK \n\tbefore starting for some good luck!!")
         }, 100)
     })
 
