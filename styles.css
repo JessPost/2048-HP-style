@@ -76,6 +76,12 @@ p {
     color: #e4e13a;
     text-shadow: 2px 2px 2px #805403;
     animation: flashingLuck .5s linear infinite;
+    cursor: pointer;
+}
+
+.wish:hover {
+    font-style: normal;
+    font-weight: normal;
 }
 
 @keyframes flashingLuck {

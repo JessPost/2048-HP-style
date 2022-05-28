@@ -28,6 +28,13 @@ window.onload = function () {
     generateNumber();
     generateNumber();
 
+    document.querySelector('audio').addEventListener('play', function () {
+        setTimeout(function () {
+            alert("Enjoy the music while you play and \nclick on GOOD LUCK before starting for some good luck!!")
+        }, 100)
+    })
+
+
 
     //create game board
     function createGameBoard() {
