@@ -34,8 +34,6 @@ window.onload = function () {
         }, 100)
     })
 
-
-
     //create game board
     function createGameBoard() {
         //loop over the board 
