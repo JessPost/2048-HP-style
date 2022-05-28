@@ -11,9 +11,12 @@ body {
 }
 
 @font-face {
-    font-family: 'Harry Potter', sans-serif;
-    src: url("http://fonts.cdnfonts.com/css/harry-potter");
+    font-family: 'Harry Potter';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Harry Potter'), url('https://fonts.cdnfonts.com/s/25438/HARRP___.woff') format('woff');
 }
+
 
 h1 {
     font-family: 'Harry Potter', sans-serif;
