@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hogwarts 2048</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="http://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Hogwarts 2048</h1>
+
+    <audio controls autoplay>
+        <source src="/Music/Harry Potter - Main Theme.mp3" type="audio/mpeg" />
+    </audio>
+    <div class="score-container">
+        Score: <span id="score">0</span>
+    </div>
+    <div class="board-container">
+        <div class="game-info">
+            <p class="instructions">INSTRUCTIONS:</p>
+            <hr>
+            <p><u><strong>To move the numbers use:</strong></u> <br> &#8226;&nbsp;Arrow keys, or <br>
+                &#8226;&nbsp;NumPad arrows, or <br>
+                &#8226;&nbsp;Letters w,
+                a, s, d
+            </p>
+            <p class="wish">GOOD LUCK!</p>
+        </div>
+        <div id="gameBoard"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        const audio = new Audio();
+        audio.src = "https://www.fesliyanstudios.com/play-mp3/387";
+    </script>
+</body>
+
+</html>
