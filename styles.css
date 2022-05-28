@@ -1,5 +1,3 @@
-/* @import url('http://fonts.cdnfonts.com/css/harry-potter'); */
-
 html {
     background-image: url('./Images/hogwarts.jpg');
     background-size: cover;
@@ -10,6 +8,11 @@ html {
 
 body {
     text-align: center;
+}
+
+@font-face {
+    font-family: 'Harry Potter', sans-serif;
+    src: url("http://fonts.cdnfonts.com/css/harry-potter");
 }
 
 h1 {
