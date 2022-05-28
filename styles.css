@@ -8,7 +8,7 @@ html {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 130vh;
+    height: 100vh;
 }
 
 body {
@@ -128,6 +128,7 @@ audio {
     top: 400px;
     right: 50px;
     max-width: 150px;
+    height: 20px;
     border: 5px solid goldenrod;
     border-radius: 25px;
     background-color: goldenrod;
