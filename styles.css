@@ -8,7 +8,7 @@ html {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 130vh;
+    height: 100vh;
 }
 
 body {
@@ -20,12 +20,12 @@ h1 {
     font-size: 150px;
     color: #ad7843;
     margin: 0px;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: .01px;
     -webkit-text-stroke-color: rgb(255, 171, 16);
-    letter-spacing: 1.5px;
+    letter-spacing: 8px;
     display: flex;
     justify-content: center;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .score-container {
@@ -33,7 +33,7 @@ h1 {
     text-align: center;
     color: #fffb27;
     text-shadow: 5px 5px 5px rgb(128, 84, 3);
-    font-size: 75px;
+    font-size: 90px;
     letter-spacing: 1px;
     font-weight: lighter;
 }
