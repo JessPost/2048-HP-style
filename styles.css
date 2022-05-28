@@ -1,5 +1,5 @@
  html {
-     background-image: url('Images/hogwarts.jpg');
+     background-image: url('./Images/hogwarts.jpg');
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
